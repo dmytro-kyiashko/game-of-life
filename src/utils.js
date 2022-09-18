@@ -35,6 +35,5 @@ export function generateEmptyState(gridSize) {
 }
 
 export function isEmptyState(state){
-    console.log(state);
     return !state.find((row) => row.some(col => col === 1))
 }
